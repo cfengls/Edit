@@ -1,0 +1,58 @@
+<resources>
+    <attr name="colorPrimary" format="color" />
+    <attr name="colorPrimaryDark" format="color" />
+    <attr name="colorAccent" format="color" />
+    <attr name="background_blue" format="color"/>
+    <attr name="background_blue2" format="color"/>
+    <attr name="edit_textcolor" format="color"/>
+    <attr name="edit_textcolor2" format="color"/>
+
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#3f51b5</item>
+        <item name="colorPrimaryDark">#303f9f</item>
+        <item name="colorAccent">#536dfe</item>
+        <item name="background_blue">#FFF</item>
+        <item name="edit_textcolor">#424242</item>
+        <item name="edit_textcolor2">#ffffff</item>
+        <item name="background_blue2">#3f51b5</item>
+        <item name="android:itemBackground">#3f51b5</item>
+
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#212121</item>
+        <item name="colorAccent">#d9d7d7</item>
+        <item name="background_blue">#292929</item>
+        <item name="edit_textcolor">#d9d7d7</item>
+        <item name="edit_textcolor2">#252525</item>
+        <item name="background_blue2">#292929</item>
+    </style>
+
+
+
+
+
+
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+
+
+
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme2.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+</resources>

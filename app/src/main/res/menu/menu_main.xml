@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cfengls.scedit.MainActivity">
+
+    <item
+        android:id="@+id/action_qianjinText"
+        android:orderInCategory="1"
+
+        app:showAsAction="always"
+        android:icon="@drawable/qianjin"
+         />
+
+    <item
+        android:id="@+id/action_houtuiText"
+        android:orderInCategory="0"
+        app:showAsAction="always"
+        android:icon="@drawable/houtui"
+        />
+    <item
+        android:id="@+id/action_openText"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:icon="@drawable/open" />
+    <item
+        android:id="@+id/action_new"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        android:title="新建"/>
+    <item
+        android:id="@+id/action_OK"
+        android:orderInCategory="4"
+        app:showAsAction="never"
+        android:title="保存"/>
+    <item
+        android:id="@+id/action_zhuti"
+        android:orderInCategory="5"
+        app:showAsAction="never"
+        android:title="切换主题"/>
+</menu>
